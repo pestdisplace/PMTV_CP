@@ -1,0 +1,422 @@
+{
+  "annotations": {
+    "nuc": {
+      "end": 489,
+      "start": 0,
+      "strand": 1
+    }
+  },
+  "author_info": {},
+  "color_options": {
+    "country": {
+      "key": "country",
+      "legendTitle": "country",
+      "menuItem": "country",
+      "type": "discrete"
+    },
+    "location": {
+      "key": "location",
+      "legendTitle": "location",
+      "menuItem": "location",
+      "type": "discrete"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    },
+    "virus": {
+      "key": "virus",
+      "legendTitle": "virus",
+      "menuItem": "virus",
+      "type": "discrete"
+    }
+  },
+  "defaults": {
+    "mapTriplicate": true
+  },
+  "filters": [
+    "country",
+    "location",
+    "virus"
+  ],
+  "geo": {
+    "country": {
+      "Canada": {
+        "latitude": 49.700324,
+        "longitude": -112.780739
+      },
+      "Chile": {
+        "latitude": -42.6265,
+        "longitude": -73.6371
+      },
+      "China": {
+        "latitude": 22.9882544,
+        "longitude": 114.7156772
+      },
+      "Colombia": {
+        "latitude": 5.97431,
+        "longitude": -75.36195
+      },
+      "Czech_Republic": {
+        "latitude": 49.607079,
+        "longitude": 15.5794883
+      },
+      "Denmark": {
+        "latitude": 55.9396438,
+        "longitude": 9.3180846
+      },
+      "Finland": {
+        "latitude": 60.2166218,
+        "longitude": 19.9438638
+      },
+      "Japan": {
+        "latitude": 43.7533137,
+        "longitude": 143.8274934
+      },
+      "Latvia": {
+        "latitude": 56.9493977,
+        "longitude": 24.1051846
+      },
+      "Peru": {
+        "latitude": -13.52264,
+        "longitude": -71.96734
+      },
+      "Poland": {
+        "latitude": 51.7687,
+        "longitude": 19.457
+      },
+      "Sweden": {
+        "latitude": 56.9604279,
+        "longitude": 12.8074192
+      },
+      "Switzerland": {
+        "latitude": 46.92177171,
+        "longitude": 8.473552069
+      },
+      "Thailand": {
+        "latitude": 13.8547801,
+        "longitude": 100.5802923
+      },
+      "USA": {
+        "latitude": 47.46675756,
+        "longitude": -120.5479131
+      }
+    },
+    "location": {
+      "Aland": {
+        "latitude": 60.2166218,
+        "longitude": 19.9438638
+      },
+      "Antioquia_La_Union": {
+        "latitude": 5.9605556,
+        "longitude": -75.365
+      },
+      "Antioquia_Santa_Rosa_de_Osos": {
+        "latitude": 6.6488889,
+        "longitude": -75.46333333
+      },
+      "Blekinge": {
+        "latitude": 56.1240122,
+        "longitude": 15.4021841
+      },
+      "Boyaca_Oicata": {
+        "latitude": 5.59443,
+        "longitude": -73.3082
+      },
+      "Boyaca_Siachoque": {
+        "latitude": 5.51307,
+        "longitude": -73.2449
+      },
+      "Boyaca_Tunja": {
+        "latitude": 5.532440359,
+        "longitude": -73.36172104
+      },
+      "Boyaca_Turmeque": {
+        "latitude": 5.3166667,
+        "longitude": -73.5
+      },
+      "Cajamarca": {
+        "latitude": -7.15667,
+        "longitude": -78.5173
+      },
+      "Canada": {
+        "latitude": 46.267553,
+        "longitude": -63.138216
+      },
+      "Chiloe": {
+        "latitude": -42.6265,
+        "longitude": -73.6371
+      },
+      "Colorado": {
+        "latitude": 39.21841611,
+        "longitude": -105.5288925
+      },
+      "Cundinamarca_Madrid": {
+        "latitude": 4.73248,
+        "longitude": -74.2567
+      },
+      "Cundinamarca_Subachoque": {
+        "latitude": 4.92797,
+        "longitude": -74.174
+      },
+      "Cundinamarca_Villapinzon": {
+        "latitude": 5.22152,
+        "longitude": -73.5899
+      },
+      "Cusco_Ccatcca": {
+        "latitude": -13.6049098,
+        "longitude": -71.5634559
+      },
+      "Cusco_Colquepata_Chocopia": {
+        "latitude": -13.35583,
+        "longitude": -71.66972
+      },
+      "Cusco_Colquepata_Milka": {
+        "latitude": -13.35583,
+        "longitude": -71.66972
+      },
+      "Cusco_Cuyuni": {
+        "latitude": -13.6174879,
+        "longitude": -71.5756643
+      },
+      "Cusco_INIA": {
+        "latitude": -13.52264,
+        "longitude": -71.96734
+      },
+      "Cusco_Occopata": {
+        "latitude": -13.5942881,
+        "longitude": -71.9753249
+      },
+      "Czech_Republic": {
+        "latitude": 49.607079,
+        "longitude": 15.5794883
+      },
+      "Dalarna": {
+        "latitude": 61.0603779,
+        "longitude": 14.2150873
+      },
+      "Denmark": {
+        "latitude": 55.3124,
+        "longitude": 11.397
+      },
+      "Funen": {
+        "latitude": 55.3245968,
+        "longitude": 10.3472131
+      },
+      "Gavleborg": {
+        "latitude": 61.26138,
+        "longitude": 16.6987101
+      },
+      "Gotland": {
+        "latitude": 57.6783173,
+        "longitude": 18.6384636
+      },
+      "Grand_Forks_North_Dakota": {
+        "latitude": 47.9078,
+        "longitude": -97.0592
+      },
+      "Guangdong": {
+        "latitude": 23.1357694,
+        "longitude": 113.1982688
+      },
+      "Halland": {
+        "latitude": 56.9604279,
+        "longitude": 12.8074192
+      },
+      "Hammarland": {
+        "latitude": 60.2196758,
+        "longitude": 19.7378481
+      },
+      "Huancavelica_Yauli": {
+        "latitude": -12.77124914,
+        "longitude": -74.85208037
+      },
+      "Huidong_Guangdong": {
+        "latitude": 22.9882544,
+        "longitude": 114.7156772
+      },
+      "Idaho": {
+        "latitude": 43.36676173,
+        "longitude": -112.6926885
+      },
+      "Jamtland": {
+        "latitude": 63.3447015,
+        "longitude": 14.1251369
+      },
+      "Jomala": {
+        "latitude": 59.988382,
+        "longitude": 19.6668349
+      },
+      "Jonkoping": {
+        "latitude": 57.5358279,
+        "longitude": 14.6439029
+      },
+      "Kalajoki": {
+        "latitude": 64.260017,
+        "longitude": 23.950545
+      },
+      "Kalmar": {
+        "latitude": 57.0279009,
+        "longitude": 16.5751477
+      },
+      "Kannus": {
+        "latitude": 63.9007773,
+        "longitude": 23.9170363
+      },
+      "Klamath_county_Oregon": {
+        "latitude": 42.6052565,
+        "longitude": -121.739544
+      },
+      "Kristiinankaupunki": {
+        "latitude": 62.1717869,
+        "longitude": 21.2175751
+      },
+      "Kronoberg": {
+        "latitude": 56.8004873,
+        "longitude": 14.4103475
+      },
+      "Lemland": {
+        "latitude": 60.055716,
+        "longitude": 20.1220703
+      },
+      "Lodz": {
+        "latitude": 51.7687,
+        "longitude": 19.457
+      },
+      "Lohtaja": {
+        "latitude": 64.0224819,
+        "longitude": 23.5065717
+      },
+      "Lumijoki": {
+        "latitude": 64.8384044,
+        "longitude": 25.1868431
+      },
+      "Maryland": {
+        "latitude": 39.5162234,
+        "longitude": -76.9382069
+      },
+      "Michigan": {
+        "latitude": 44.54643491,
+        "longitude": -84.86360932
+      },
+      "Middle_Jutland": {
+        "latitude": 55.9396438,
+        "longitude": 9.3180846
+      },
+      "Narino_Pasto": {
+        "latitude": 1.21463,
+        "longitude": -77.2783
+      },
+      "New_Brunswick": {
+        "latitude": 46.500283,
+        "longitude": -66.750183
+      },
+      "Northern_Jutland": {
+        "latitude": 57.14589592,
+        "longitude": 9.942388055
+      },
+      "Oregon": {
+        "latitude": 44.13786363,
+        "longitude": -120.9207382
+      },
+      "Ostergotland": {
+        "latitude": 58.3273193,
+        "longitude": 16.025667
+      },
+      "Pyhajoki": {
+        "latitude": 64.4663193,
+        "longitude": 24.2550528
+      },
+      "Riga": {
+        "latitude": 56.9493977,
+        "longitude": 24.1051846
+      },
+      "Saguache-Colorado": {
+        "latitude": 38.0875,
+        "longitude": -106.142
+      },
+      "San_Juan_New_Mexico": {
+        "latitude": 36.0519,
+        "longitude": -106.068
+      },
+      "Skane": {
+        "latitude": 55.8469409,
+        "longitude": 13.6358312
+      },
+      "Sodermanland": {
+        "latitude": 58.9638273,
+        "longitude": 16.7299348
+      },
+      "South_Bohemia": {
+        "latitude": 49.14286874,
+        "longitude": 14.34521116
+      },
+      "Stockholm": {
+        "latitude": 59.3901513,
+        "longitude": 18.6642749
+      },
+      "Switzerland": {
+        "latitude": 46.92177171,
+        "longitude": 8.473552069
+      },
+      "Thailand": {
+        "latitude": 13.8547801,
+        "longitude": 100.5802923
+      },
+      "Tokachi_Hokkaido": {
+        "latitude": 43.7533137,
+        "longitude": 143.8274934
+      },
+      "Uppsala": {
+        "latitude": 60.1486,
+        "longitude": 17.6249561
+      },
+      "Uusikaarlepyy": {
+        "latitude": 63.5222473,
+        "longitude": 22.5284347
+      },
+      "Varmland": {
+        "latitude": 59.8905447,
+        "longitude": 13.2949248
+      },
+      "Vasternorrland": {
+        "latitude": 63.0598131,
+        "longitude": 18.1062148
+      },
+      "Vastmanland": {
+        "latitude": 59.6965639,
+        "longitude": 16.1846536
+      },
+      "Washington": {
+        "latitude": 45.86265438,
+        "longitude": -120.422457
+      },
+      "Washington_state": {
+        "latitude": 47.46675756,
+        "longitude": -120.5479131
+      },
+      "Yunnan": {
+        "latitude": 25.0,
+        "longitude": 102.0
+      },
+      "orebro": {
+        "latitude": 59.3804788,
+        "longitude": 14.9889541
+      }
+    }
+  },
+  "maintainer": [
+    "PestDisPlace",
+    "https://pestdisplace.org/"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "title": "Real-time tracking of Potato mop-top virus (PMTV)(CP)",
+  "updated": "17 Feb 2020",
+  "virus_count": 137
+}
